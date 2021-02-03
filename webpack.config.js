@@ -12,7 +12,7 @@ module.exports = {
 		filename: '[name].js',
 		publicPath: '/',
 	},
-	target: 'web',
+	target: 'web', // 解决webpack5中不能热更新的问题
 	cache: {
 		// 不要再使用cnpm来安装模块
 		type: 'filesystem', //memory filesystem
